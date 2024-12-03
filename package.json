@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code",
+  "scripts": {
+    "day1": "bun run 01/index.ts",
+    "day2": "bun run 02/index.ts",
+    "day3": "bun run 03/index.ts",
+    "day4": "bun run 04/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
