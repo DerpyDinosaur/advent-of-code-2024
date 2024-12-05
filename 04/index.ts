@@ -80,3 +80,9 @@ for (let row = 0; row < puzzle.length; row++){
 }
 
 console.log("Task 2:", coords.length)
+
+// ---------------------------------
+// REFERENCES
+// Word Search Algorithm 
+// 		https://www.geeksforgeeks.org/search-a-word-in-a-2d-grid-of-characters/
+// ---------------------------------
