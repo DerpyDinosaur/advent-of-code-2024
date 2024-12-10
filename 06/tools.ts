@@ -4,14 +4,14 @@ export type Pos = {
 }
 
 export enum Direction {
-    N,
-    E,
-    S,
-    W,
-    NE,
-    SE,
-    SW,
-    NW,
+  N,
+  E,
+  S,
+  W,
+  NE,
+  SE,
+  SW,
+  NW,
 }
 
 export const direction_coord = (direction: Direction): Pos => {
@@ -32,8 +32,6 @@ export const direction_coord = (direction: Direction): Pos => {
       return { x: -1, y: 1 };
     case Direction.NW:
       return { x: -1, y: -1 };
-    default:
-      throw new Error("Direction does not exist");
   }
 }
 
